@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F4F4F4;
+    font-family: segoe ui;
+}
+
+.banner {
+    width: 1024px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    font-size: 14px;
+    font-family: segoe ui;
+}
+
+.banner a {
+    width: 50%;
+    text-decoration: none;
+}
+
+.banner a img {
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.banner .user {
+    width: 50%;
+    color: #083767;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.banner .user .dn {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.banner .user .dn:hover {
+    color: #0B9CA1;
+}
+
+.banner .user .dk {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.banner .user .dk:hover {
+    color: #0B9CA1;
+}
+
+
+/* het banner */
+
+.menubg {
+    width: 100%;
+    height: 54px;
+    background-color: #4B4A49;
+    margin-bottom: 50px;
+}
+
+.menuto {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.menu {
+    width: 60%;
+    height: 50px;
+    font-family: segoe ui light;
+    font-size: 14px;
+    display: flex;
+}
+
+.menu ._1item {
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-family: segoe ui;
+}
+
+.menu ._1item>a {
+    display: block;
+    padding: 16px 25px;
+    transition: 0.1s;
+}
+
+.menu ._1item:hover>a {
+    color: #289DCC;
+}
+
+.menu ._1item .l1 a {
+    display: block;
+    line-height: 100%;
+}
+
+.menu ._1item .l2 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #333;
+    transition: 0.3s;
+}
+
+.menu ._1item .l2 li {
+    list-style: none;
+    width: 180px;
+    border-bottom: 1px solid #525252;
+}
+
+.menu ._1item .l2 li:hover {
+    background-color: black;
+}
+
+.menu ._1item .l2 a {
+    color: #DEDEDE;
+    font-size: 12px;
+    display: block;
+    padding: 15px;
+    width: 180px;
+}
+
+.menu ._1item:hover .l2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menuto .search {
+    width: 40%;
+    height: 100%;
+    text-align: right;
+}
+
+.menuto .search input {
+    height: 20px;
+    margin-top: 15px;
+}
+
+.menuto .search .fa {
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+}
+
+
+/* het menu */
+
+.main {
+    margin-top: 50px;
+    width: 1200px;
+    border: 1px solid #EEE;
+    margin: auto;
+}
+.login {
+    margin: 50px 0 50px 0;
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login h2 {
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.login input {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+
+.login button {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    font-size: 15px;
+    background-color: #24C9CF;
+    color: #666;
+}
+
+.login img {
+    display: block;
+    width: 40%;
+    height: auto;
+}
+/* het sach  */
+
+h2 {
+    margin-top: 10px;
+}
+
+.lienhe {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.lienhe .cot1 {
+    width: 25%;
+}
+
+.lienhe .cot1 ul {
+    font-size: 15px;
+    color: #666;
+    font-family: segoe ui;
+}
+
+.lienhe .cot1 ul li {
+    list-style: none;
+    margin-bottom: 13px;
+}
+
+.lienhe .cot1 ul li a {
+    text-decoration: none;
+    color: #083767;
+}
+
+.lienhe .cot1 ul li a:hover {
+    color: #0B9CA1;
+}
+
+
+/* het liên hệ  */
+
+.footer {
+    width: 100%;
+    height: 30px;
+    background-color: #24C9CF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer .chu {
+    color: white;
+    font-size: 15px;
+    font-family: segoe ui;
+}
+/* het  */
